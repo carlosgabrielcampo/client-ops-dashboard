@@ -1,0 +1,225 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Carlos Campo",
+      "company": "Campo Studio",
+      "email": "carlos@campostudio.com",
+      "phone": "(555) 201-1101",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Olivia Bennett",
+      "company": "Northlane Creative",
+      "email": "olivia@northlane.co",
+      "phone": "(555) 201-1102",
+      "status": "lead"
+    },
+    {
+      "id": "3",
+      "name": "Marcus Lee",
+      "company": "Lee Logistics",
+      "email": "marcus@leelogistics.com",
+      "phone": "(555) 201-1103",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "name": "Sophia Turner",
+      "company": "Turner Wellness",
+      "email": "sophia@turnerwellness.com",
+      "phone": "(555) 201-1104",
+      "status": "inactive"
+    },
+    {
+      "id": "5",
+      "name": "Daniel Brooks",
+      "company": "Brooks Advisory",
+      "email": "daniel@brooksadvisory.com",
+      "phone": "(555) 201-1105",
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "name": "Emma Collins",
+      "company": "Collins Events",
+      "email": "emma@collinsevents.com",
+      "phone": "(555) 201-1106",
+      "status": "lead"
+    },
+    {
+      "name": "sd",
+      "company": "sdaasd",
+      "email": "asdasd@gmail.com",
+      "phone": "23123",
+      "status": "active",
+      "id": "iEErAM4N0DU"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "clientId": 1,
+      "name": "Website Redesign",
+      "status": "active",
+      "budget": 8500,
+      "dueDate": "2026-05-10"
+    },
+    {
+      "id": "2",
+      "clientId": 2,
+      "name": "Brand Discovery",
+      "status": "planning",
+      "budget": 3200,
+      "dueDate": "2026-05-22"
+    },
+    {
+      "id": "3",
+      "clientId": 3,
+      "name": "Operations Dashboard",
+      "status": "active",
+      "budget": 12400,
+      "dueDate": "2026-06-03"
+    },
+    {
+      "id": "4",
+      "clientId": 4,
+      "name": "Booking Portal Refresh",
+      "status": "completed",
+      "budget": 5400,
+      "dueDate": "2026-03-18"
+    },
+    {
+      "id": "5",
+      "clientId": 5,
+      "name": "Lead Funnel Audit",
+      "status": "active",
+      "budget": 4700,
+      "dueDate": "2026-04-28"
+    },
+    {
+      "clientId": "1",
+      "name": "Event Landing Page",
+      "status": "planning",
+      "budget": "3100",
+      "dueDate": "2026-05-14",
+      "id": "6"
+    }
+  ],
+  "tasks": [
+    {
+      "projectId": 1,
+      "title": "Finalize homepage wireframes",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-15",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "projectId": 1,
+      "title": "Prepare content inventory",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-04-18"
+    },
+    {
+      "id": "3",
+      "projectId": 2,
+      "title": "Run stakeholder interview",
+      "status": "todo",
+      "priority": "high",
+      "dueDate": "2026-04-20"
+    },
+    {
+      "id": "4",
+      "projectId": 3,
+      "title": "Build KPI summary cards",
+      "status": "done",
+      "priority": "medium",
+      "dueDate": "2026-04-10"
+    },
+    {
+      "id": "5",
+      "projectId": 3,
+      "title": "Create clients data table",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2026-04-16"
+    },
+    {
+      "id": "6",
+      "projectId": 5,
+      "title": "Audit intake form conversion",
+      "status": "todo",
+      "priority": "low",
+      "dueDate": "2026-04-25"
+    },
+    {
+      "id": "7",
+      "projectId": 6,
+      "title": "Design hero section",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-04-21"
+    }
+  ],
+  "invoices": [
+    {
+      "clientId": 1,
+      "projectId": 1,
+      "amount": 2800,
+      "status": "paid",
+      "issueDate": "2026-04-01",
+      "dueDate": "2026-04-10",
+      "id": "1"
+    },
+    {
+      "clientId": 2,
+      "projectId": 2,
+      "amount": 1200,
+      "status": "unpaid",
+      "issueDate": "2026-04-05",
+      "dueDate": "2026-04-19",
+      "id": "2"
+    },
+    {
+      "clientId": 3,
+      "projectId": 3,
+      "amount": 4100,
+      "status": "unpaid",
+      "issueDate": "2026-04-03",
+      "dueDate": "2026-04-17",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "clientId": 4,
+      "projectId": 4,
+      "amount": 5400,
+      "status": "paid",
+      "issueDate": "2026-03-01",
+      "dueDate": "2026-03-15"
+    },
+    {
+      "id": "5",
+      "clientId": 5,
+      "projectId": 5,
+      "amount": 1800,
+      "status": "overdue",
+      "issueDate": "2026-03-28",
+      "dueDate": "2026-04-08"
+    },
+    {
+      "id": "6",
+      "clientId": 6,
+      "projectId": 6,
+      "amount": 900,
+      "status": "draft",
+      "issueDate": "2026-04-12",
+      "dueDate": "2026-04-26"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
